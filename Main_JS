@@ -1,0 +1,28 @@
+function mode_image(mode) {
+    if (mode == 0) {
+        return '<img src="https://cdn-icons-png.flaticon.com/128/664/664883.png="width:500px;">';                 //no mode
+    } else if (mode == 1) {
+        return '<img src="https://cdn-icons-png.flaticon.com/128/13155/13155209.png "width:500px;">';            //TEMP mode
+
+    } else if (mode == 2) {
+        return '<img src="https://cdn-icons-png.flaticon.com/128/10027/10027965.png"width:500px;">';         //Lightflux mode
+    } else if (mode == 3) {
+        return '<img src="https://cdn-icons-png.flaticon.com/128/2237/2237440.png"width:500px;">';                    
+    } else if (mode == 4) {
+        return '<img src="https://cdn-icons-png.flaticon.com/128/4083/4083915.png"width:500px;">';
+    } else {
+        return '<img src="https://cdn-icons-png.flaticon.com/128/3989/3989630.png"width:500px;">'
+    }
+}
+
+function mode_image(Temp_dec, mode_num) {
+    if (mode_num == 2) {
+        return Temp_dec;
+    } else {
+        return "#";
+        //if temp be get return 1 &return temp 
+    }
+
+
+
+}
